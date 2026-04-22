@@ -114,7 +114,7 @@ The CNN module uses a **Convolutional Neural Network** to classify circuit symbo
 
 ### 5. YOLO Object Detection Module
 
-This module uses **Ultralytics YOLO** for detecting multiple circuit symbols within a single image.
+This module uses **YOLO** for detecting multiple circuit symbols within a single image.
 
 #### Key Responsibilities
 
@@ -175,21 +175,7 @@ Visualization libraries used:
 - Python
 - OpenCV
 - PyTorch
-- Ultralytics YOLO
-- Albumentations
+- YOLO
 - Scikit-learn
 - Matplotlib
 
----
-
-## Running the Project
-
-### Install Dependencies
-
-```bash
-pip install opencv-python-headless
-pip install albumentations
-pip install ultralytics
-pip install torchmetrics
-pip install opendatasets
-```
